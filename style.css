@@ -1,0 +1,178 @@
+body{font-family: helvetica;
+
+
+}
+
+h2{font-size:40px;
+}
+h4{font-size: 24px;
+}
+
+/* start header*/
+.nava{font-size: 24px;
+  color:white;
+  opacity:0.9;
+
+  font-weight: bold;
+}
+.nav{display: flex;
+   width: 425px;
+   height: 69px;
+   align-items: center;
+   justify-content: space-around;
+ }
+.headimg{
+  width: 165px;
+  height: 50px;
+  opacity: 0.9;
+}
+.head{display: flex;
+    width:1250px;
+    height:69px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    position:fixed;
+    z-index:2;
+    top:0;
+    border-bottom:1px solid seashell;
+  }
+/* end header*/
+/*start section 1*/
+#omiss{
+  height: 6px;
+  background-color: black;
+  padding-top: 11px;
+  opacity: 0.9;
+}
+#banlist{
+  height: 1px;
+  background-color: black;
+  padding-bottom: 40px;
+  opacity: 0.9;
+}
+.banboth{width: 1200;
+  color: white;
+  text-align: center;
+}
+.banner{display: flex;
+  flex-direction: column;
+  width: 1200px;
+  height: 90px;
+  background-color: black;
+  justify-content: space-around;
+}
+.banwbg{display: flex;
+  flex-direction: row;
+  width: 1200px;
+  height: 700px;
+  align-items: center;
+  background-image: url("images/img-mission-background.jpg");
+  margin-top:61px;
+  }
+/*end section 1*/
+/* start section 2*/
+.icset p{color:white;
+  opacity:0.9;
+  }
+.head2nd{width:1000px;
+height:193px;
+text-align:center;
+color:white;
+}
+.icset{width:300px;
+  height:241px;
+  font-size:24px;
+  font-weight:bold;
+  text-align:center;
+}
+.threepix{display:flex;
+  width: 1000px;
+  height:241px;
+  justify-content:space-between;
+}
+.twopix{display:flex;
+  width:650px;
+  height:241px;
+  justify-content:space-between;
+}
+.allpix{display:flex;
+  flex-direction:column;
+  width:1000px;
+  height:495px;
+  justify-content:space-between;
+  align-items:center;
+ }
+ .sec2{display:inline-flex;
+   flex-direction:column;
+   width:1000PX;
+   height:775px;
+   justify-content:space-between;
+ }
+/* end section 2*/
+/*start section 3*/
+#lochead{font-size:38px;
+  width:980px;
+  height:10px;
+  font-weight:bold;
+  text-align:center;
+  }
+.loc h2{font-weight:bold;
+  font-size:30px;}
+.loc h4{font-weight:normal;}
+.loc{width:300px;
+  height:300px;
+  text-align:center;
+  color:white;
+  opacity:0.9;
+  background-color:black;
+}
+.sec3loc{display:flex;
+  width:980px;
+  height:300px;
+  justify-content:space-between;
+}
+.sec3all{display:flex;
+  flex-direction:column;
+  width:980px;
+  height:325px;
+ }
+.sec3wbg{width:1091px;
+  height:500px;
+  background-image:url("images/img-locations-background.jpg");
+  padding-left:109px;
+  padding-top:80px;
+  margin-top:80px;
+}
+/*end section 3*/
+/*start foot*/
+.footer{width:1250px;
+  height:200px;
+  color:white;
+  opacity:0.9;
+  text-align:center;
+
+}
+.crt{text-align:left;
+  width:1250px;
+  height:20px;
+  color:white;
+  opacity:0.9;
+  padding-left:10px;
+}
+
+/*end foot*/
+
+
+.wholepage{display:inline-flex;
+  flex-direction:column;
+  width:1250px;
+  height:2200px;
+  justify-content:space-between;
+  align-items:center;
+
+  background-color:black;
+
+
+  }
